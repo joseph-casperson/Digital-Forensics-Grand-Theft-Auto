@@ -1,0 +1,29 @@
+# Disk images — these are large and should be hosted separately
+*.vmdk
+*.vdi
+*.img
+*.dd
+*.raw
+*.e01
+*.ex01
+
+# Autopsy case files — machine-specific paths
+*.aut
+autopsy_cases/
+
+# Foremost output — generated during analysis
+foremost_output/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+*.swp
+*~
+
+# Temp files
+*.tmp
+*.bak
